@@ -1,0 +1,20 @@
+#mail_icon{
+    width:40px;
+    height:40px;
+    border-radius: 20px;
+}
+body{
+    background-image:url(cool_background2.jpg);
+    background-size: cover;
+    color:white;
+}
+.login_div{
+    text-align: center;
+    background-color: lightblue;
+    float: none;
+    border-radius: 20px;
+    margin-left :425px;
+}
+.header{
+    color:white;
+}
