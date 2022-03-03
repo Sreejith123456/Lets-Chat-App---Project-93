@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Lets Chat!</title>
+        <link rel = "stylesheet" type="text/css" href = "kwitter_room.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <span><h2 id = "nametag"></h2><button id="logout" class="glyphicon glyphicon-log-out btn btn-danger" onclick="logout()">Logout</button></span>
+        <center>
+            <h1 class = "header">Lets Chat!<sub></sub><img src="mail_icon.jpg" class = "logo" id = "mail_icon"></sub></h1><br><br>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 room_div" >
+            <h2>Welcome </h2>
+            <h3>Add Room!</h3>
+            <input type = "text" id = "room_name" placeholder = "Room Name" class = "form-control">
+            <button id = "addroom" class = "btn btn-primary" onclick="addRoom()">ADD ROOM</button>
+            <label id = "rooms"></label>
+        </div>
+        </center>
+    </body>
+</html>
